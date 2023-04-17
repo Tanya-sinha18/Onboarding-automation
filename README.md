@@ -23,13 +23,13 @@ After someone submits the form  a mail is sent for approval where two buttons wi
 As you can see the mail is received . 
 
 2.Send the Onboarding Update to the User's personal Email ID - Next action is to either approve or Disapprove the onboarding. 
-Case 1- If he approves then the congratulations mail is sent to the newly onboarded user's personal email id where the details regarding how to login with the new id along with the user manual.Also a form link will be attached to the mail that the user has to fill once he is able to login with the company email id.These two will be included within the body of the mail. The form attached will further be used to add another flow to create task for the user on azure.
+Case 1- If he approves then the congratulations mail is sent to the newly onboarded user's personal email id where the details are given regarding how to login with the new id along with the user manual.Also a form link will be attached to the mail that the user has to fill once he is able to login with the company email id. The form is designed in such a way that it can only be filled unless you are logged in with your company email id.These two i.e user manual and form will be included within the body of the mail. The form attached will further be used to add another flow to create task for the user on azure.
 Case 2- If the manager diapproves onboarding then also the info will be shared with the user.
 Here is the image of the mail received after Manager approves onboarding.
 
 ![image](https://user-images.githubusercontent.com/116060032/220836991-4211555f-cff6-40f7-acd8-384cdc4ed446.png)
 
-3. To create work items on azure board for the new joinee via Power automate - AS you can see above there is an another form attached within the body of the mail.This form will be used as an input to trigger another action.The form will be  redirected to create azure work items.That means as soon as the person submits the form before that the task must be defined for him in the azure_work_item_flow so that after he submits he gets notified via mail regarding details of the tasks.
+3. To create work items on azure board for the new joinee via Power automate - AS you can see above there is an another form attached within the body of the mail.This form will be used as an input to trigger another action.The form will be  redirected to create azure work items.That means as soon as the person submits the form before that the task must be defined for him in the azure_work_item_flow so that after he submits he gets notified via mail (here the information will be exhanged on the newly generated id) regarding details of the tasks.
 The flow image is shown below-
 ![image](https://user-images.githubusercontent.com/116060032/220838819-04ea29ff-23d0-4da2-ace5-0fa175f10ad6.png)
 Here the task will be created for the user as soon as he submits the form received on his mail.
