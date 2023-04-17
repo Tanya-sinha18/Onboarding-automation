@@ -17,13 +17,13 @@ As soon as the form is submitted with the required fields then an automated mail
 Image of approval workflow via Power Automate - 
 ![image](https://user-images.githubusercontent.com/116060032/220855943-6999863c-27d0-47ee-b473-329d02674cb3.png)
 
-After someone submits the form  a mail is sent for approval where two buttons will be there. The assigned Manager has to pick any one of the given two options.
- Below is the image of mal that will be received by the Assigned Manager.
+After someone submits the form  a mail is sent for approval where two buttons will be there. The assigned Manager has to pick any one of the given two options.This approval notification will be sent to Teams and Outlook both, one can approve it through any one.
+ Below is the image of mail that will be received by the Assigned Manager.
 ![image](https://user-images.githubusercontent.com/116060032/220831381-9de8919d-35d8-40bf-9bab-62816adc44c0.png)
 As you can see the mail is received . 
 
 2.Send the Onboarding Update to the User's personal Email ID - Next action is to either approve or Disapprove the onboarding. 
-Case 1- If he approves then the congratulations mail is sent to the newly onboarded user's personal email id where the details regarding get started document and a formal form .These two will be included within the body of the mail. This form will further be used to add another flow to create the user to the project specific Channel.
+Case 1- If he approves then the congratulations mail is sent to the newly onboarded user's personal email id where the details regarding how to login with the new id along with the user manual.Also a form link will be attached to the mail that the user has to fill once he is able to login with the company email id.These two will be included within the body of the mail. The form attached will further be used to add another flow to create task for the user on azure.
 Case 2- If the manager diapproves onboarding then also the info will be shared with the user.
 Here is the image of the mail received after Manager approves onboarding.
 
@@ -40,7 +40,7 @@ The image of created azure work items via Power Automate is shown below
 
 
 4. Add the newly onboarded person to the project specific channel - At the end the user gets added to a separate channel created on microsoft Teams.
-As sson as the person gets added a welcome message is automatically sent within the channel to introduce with the Entire Team.
+As soon as the person gets added a welcome message is automatically sent within the channel to introduce with the Entire Team.
 
 
 
